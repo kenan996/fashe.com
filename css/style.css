@@ -1,0 +1,1034 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#section {
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.head1 {
+    height: 20px;
+    text-align: center;
+}
+
+.head1 p {
+    font-size: 13px;
+    padding: 5px;
+    padding: 10px;
+    color: gray;
+}
+
+.head1 h6 {
+    font-size: 13px;
+    padding: 5px;
+    padding: 10px;
+    color: gray;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a i:hover {
+    color: red;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.f {
+    display: inline-flex;
+    padding: 8px;
+    color: gray;
+}
+
+.head2 {
+    height: 50px;
+    text-align: center;
+}
+
+.head2 div {
+    height: 25px;
+    width: 110px;
+    margin-left: 20px;
+}
+
+.fashe3 li {
+    display: inline-block;
+}
+
+.fashe3 ul li:nth-child(2) {
+    background: #d9d9d9;
+    width: 1px;
+    height: 20px;
+    margin: 0 15px;
+}
+
+.days30 {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 60px;
+}
+
+.row1 {
+    background: rgb(248, 248, 248);
+    height: 50px;
+}
+
+.row2 {
+    position: sticky;
+    height: 70px;
+    margin-top: 12px;
+}
+
+.fashe {
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+}
+
+.fashe2 li {
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    margin: 13px;
+    display: inline-block;
+    transition: .3s;
+}
+
+.fashe2 li a {
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 15px;
+}
+
+.fashe2 li:hover {
+    border-color: black;
+}
+
+.fashe2 .home {
+    position: relative;
+    display: inline-block;
+}
+
+.home:hover ul {
+    display: block !important;
+}
+
+.homepage {
+    position: absolute;
+}
+
+.home ul {
+    background: #555555;
+    width: 200px;
+    display: none;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.home>a {
+    padding-bottom: 30px;
+}
+
+.homepage ul li a {
+    color: #fff;
+    display: block;
+   
+}
+
+.homepage ul li a:hover {
+    color: red;
+    text-decoration: none !important;
+}
+
+.shopnow {
+    background: url(../images/01.jpg);
+    height: 570px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.new p {
+    font-size: 20px;
+    padding-top: 180px;
+    color: aliceblue;
+}
+
+.angles {
+    transition-duration: 1s;
+}
+
+.angles a {
+    display: none;
+}
+.left i {
+    color: white;
+    background: black;
+    border-radius: 35px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .4;
+    transition: all .4s;
+    margin-left: 50px;
+}
+
+.left i:hover {
+    color: white;
+    background: rgb(233, 61, 61);
+}
+
+.right i {
+    color: white;
+    background: black;
+    border-radius: 35px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .4;
+    transition: all .4s;
+    margin-right: 50px;
+}
+
+.right i:hover {
+    color: white;
+    background: rgb(233, 61, 61);
+}
+
+
+#girl:hover a {
+    display: block;
+}
+
+.new h1 {
+    font-size: 50px;
+    padding-top: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.new button {
+    background: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    transition: .4s;
+    border: 0;
+}
+
+.new button:hover {
+    color: #fff;
+    background: rgb(233, 61, 61);
+}
+
+.new button:focus {
+    outline: none;
+}
+
+
+.box1 {
+    overflow: hidden;
+    position: relative;
+}
+
+.box2 {
+    overflow: hidden;
+    position: relative;
+}
+
+.box3 {
+    background: rgb(247, 247, 247);
+    height: 340px;
+    width: 360px;
+}
+
+.box3 h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 500;
+}
+
+.box3 h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.box3 p {
+    color: black;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+.box3 button {
+    background: #212529;
+    ;
+    color: white;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 15px 55px;
+    margin-left: 100px;
+    margin-top: 20px;
+    transition: 1s;
+    border: 0;
+}
+
+.box3 button:hover {
+    background: rgb(233, 61, 61);
+    transition: all .4s;
+}
+
+.box3 button:focus {
+    outline: none;
+}
+
+.box1 button {
+    color: black;
+    background: white;
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    transition: .3s;
+    border: none;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    opacity: .9;
+}
+
+.box1 button:hover {
+    color: white;
+    background: rgb(209, 49, 49);
+}
+
+.box1 button:focus {
+    outline: none;
+}
+
+.box1 img {
+    height: 470px;
+    width: 370px;
+    transition: .3s;
+}
+
+.box2 button {
+    color: black;
+    background: white;
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    transition: .3s;
+    border: none;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .9;
+}
+
+.box2 button:hover {
+    color: white;
+    background: rgb(209, 49, 49);
+}
+
+.box2 button:focus {
+    outline: none;
+}
+
+.box2 img {
+    height: 340px;
+    width: 370px;
+    transition: .3s;
+}
+
+.box1 img:hover {
+    transform: scale(1.1);
+}
+
+.box2 img:hover {
+    transform: scale(1.1)
+}
+
+#images {
+    background: rgb(235, 227, 227);
+    height: 570px;
+}
+
+.the-beauty {
+    overflow: hidden;
+}
+
+.feature {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.protucts {
+    position: relative;
+    overflow: hidden;
+}
+
+.protucts img {
+    width: 270px;
+    ;
+    height: 360px;
+}
+
+.overlay {
+    width: 270px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    transition: all .4s ease-in-out;
+}
+
+.overlay button {
+    background: #212529;
+    ;
+    color: white;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 12px 30px;
+    margin-left: 60px;
+    margin-top: 400px;
+    transition: .4s;
+    border: 0;
+}
+
+.overlay button:hover {
+    background: rgb(233, 61, 61);
+}
+
+.overlay button:focus {
+    outline: none;
+}
+
+.protucts:hover .overlay {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.overlay:hover button {
+    margin-top: 285px;
+}
+
+.overlay a {
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.overlay:hover a {
+    color: white;
+    transform: scale(1.1);
+}
+
+.protucts p {
+    font-family: Montserrat;
+    position: absolute;
+    color: white;
+    background: rgb(52, 187, 173);
+    top: 10px;
+    left: 10px;
+    border-radius: 35px;
+    height: 18px;
+    width: 55px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.protucts h1 {
+    font-family: Montserrat;
+    position: absolute;
+    color: white;
+    background: rgb(192, 61, 61);
+    top: 10px;
+    left: 10px;
+    border-radius: 35px;
+    height: 18px;
+    width: 55px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.protucts2 {
+    color: gray;
+    height: 20px;
+    padding-bottom: 130px;
+}
+
+.protucts2 a:hover {
+    color: red;
+}
+
+.protucts2 a {
+    text-decoration: none;
+    color: #555555;
+    border: none;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    transition: .3s;
+}
+
+.protucts2 p {
+    margin-top: 10px;
+}
+
+.protucts2 p s {
+    margin-right: 10px;
+}
+/* .angles1 {
+    transition-duration: 1s;
+}
+
+.left i {
+    color: gray;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all .4s;
+    margin-left: 50px;
+}
+
+.left i:hover {
+    color: black;
+}
+
+.right i {
+    color: gray;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all .4s;
+    margin-right: 50px;
+}
+
+.right i:hover {
+    color: black;
+} */
+
+
+.img {
+    margin-top: 70px;
+    overflow: hidden;
+    height: 430px;
+    position: relative;
+}
+
+.img img {
+    transition: .3s;
+}
+
+.img img:hover {
+    transform: scale(1.1)
+}
+
+.img2 {
+    color: white;
+    position: absolute;
+    top: 165px;
+    left: 190px;
+}
+
+.img2 p {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.img2 h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-left: -70px;
+}
+
+.img2 a {
+    color: white;
+    text-decoration: none;
+    line-height: 4;
+    margin-left: 5px;
+    letter-spacing: 2px;
+}
+
+.img2 a:hover {
+    text-decoration: underline;
+}
+
+.img3 {
+    position: absolute;
+    top: 250px;
+    left: 190px;
+}
+
+.img3 a {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.5;
+    text-decoration: none;
+    letter-spacing: .5px;
+}
+
+.img3 a:hover {
+    color: red;
+}
+
+.img4 {
+    position: absolute;
+    top: 280px;
+    left: 230px;
+}
+
+.img4 p s {
+    color: #555555;
+    padding-right: 10px;
+}
+
+.img4 p {
+    left: 0px;
+    color: red;
+    line-height: 1.5;
+}
+
+.ourblog {
+    height: 280px;
+    width: 370px;
+    overflow: hidden;
+}
+
+.ourblog img {
+    transition: .3s;
+}
+
+.ourblog img:hover {
+    transform: scale(1.1)
+}
+
+.words {
+    margin-top: 10px;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    height: 150px;
+}
+
+.words1 {
+    margin-top: 50px;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    height: 150px;
+}
+
+.words h1 {
+    color: gray;
+}
+
+.words1 h1 {
+    color: gray;
+}
+
+.words h1 a {
+    color: black;
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.words1 h1 a {
+    color: black;
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.words h1 a:hover {
+    color: red;
+}
+
+.words p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+
+.words1 p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+
+.words1 p a:hover {
+    color: red;
+}
+
+.words p {
+    color: gray;
+    border: none;
+}
+
+.words1 p {
+    color: gray;
+    border: none;
+}
+
+.words p a {
+    color: gray;
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.words1 p a {
+    color: gray;
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.words p a:hover {
+    color: red;
+}
+
+.images2 {
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    margin: -2px;
+    position: relative;
+}
+
+/* .images2 img {
+    height: 270px;
+} */
+
+.overlay1 {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.overlay1>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+    opacity: 0;
+    background: black;
+    width: 270px;
+    height: 270px;
+    transition-duration: .3s;
+}
+
+.overlay1 p {
+    font-family: Montserrat;
+    position:relative;
+    z-index:2;
+    color: white;
+    top: 300px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 200px;
+    left: 50px;
+    line-height: 20px;
+    overflow: hidden;
+    transition-duration:.3s; 
+    
+}
+.overlay1:hover p{
+    color: rgb(170, 165, 165);
+    top:60px;
+    left: 50px;
+    overflow: visible
+}
+
+.overlay1 span {
+    font-family: Montserrat;
+    position: relative;
+    z-index:2;
+    font-size:11px;
+    color: white;
+    top: 300px;
+    line-height: 60px;
+    left: 50px;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+.overlay1:hover span{
+    color: rgb(170, 165, 165);
+    top:50px;
+    left: 50px;
+    overflow: visible;
+    line-height: 80px;
+}
+
+.overlay1:hover>div {
+    opacity: .8;
+
+}
+
+.overlay1 a {
+    position: absolute;
+    color: white;
+    top: -15px;
+    left:-15px;
+    font-size: 20px;
+    transition: all .3s;
+    transform: scale(0);
+    z-index: 3;
+}
+
+.overlay1:hover a {
+   color: rgb(170, 165, 165);
+   top: 30px;
+   left: 50px;
+   transform: scale(1.1);
+}
+
+footer {
+    background: #d9d9d9;
+    height: 455px;
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    height: 20px;
+}
+
+.footer1 {
+    margin-left: 50px;
+}
+
+.get {
+    font-family: Montserrat, 500;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 60px;
+    margin-top: 50px;
+    letter-spacing: .4px;
+}
+
+.anyquestion {
+    color: #555555;
+    font-family: Montserrat, 100;
+    line-height: 25px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.footer2 {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.footer2 li:first-child {
+    font-family: Montserrat, 500;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 50px;
+    letter-spacing: .4px;
+    margin-bottom: 15px;
+}
+
+.footer2 ul li a {
+    font-family: Montserrat, 500;
+    color: #555555;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+    transition: all .4s;
+}
+
+.footer2 ul li a:hover {
+    color: rgb(209, 49, 49);
+}
+
+.footer3 {
+    margin-top: 20px;
+}
+
+.footer3 li:first-child {
+    font-family: Montserrat, 500;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 50px;
+    letter-spacing: .4px;
+    margin-bottom: 15px;
+}
+
+.footer3 ul li a {
+    font-family: Montserrat, 500;
+    color: #555555;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.footer3 ul li a:hover {
+    color: rgb(209, 49, 49);
+}
+
+.footer4 {
+    margin-top: 20px;
+}
+
+.footer4 li:first-child {
+    font-family: Montserrat, 500;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 50px;
+    letter-spacing: .4px;
+    margin-bottom: 15px;
+}
+
+.footer4 ul li a {
+    font-family: Montserrat, 500;
+    color: #555555;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.footer4 ul li a:hover {
+    color: rgb(209, 49, 49);
+}
+
+.footer5 {
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.footer5 ul li {
+    font-family: Montserrat, 500;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 50px;
+    letter-spacing: .4px;
+    margin-bottom: 15px;
+}
+
+.footer5 button {
+    background: #212529;
+    ;
+    color: white;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 15px 50px;
+    margin-left: -15x;
+    margin-top: 20px;
+    transition: 1s;
+    border: 0;
+}
+
+.footer5 button:hover {
+    background: rgb(233, 61, 61);
+    transition: all .4s;
+}
+
+.footer5 button:focus {
+    outline: none;
+}
+
+.footer5 input {
+    font-family: Montserrat-Regular 500;
+    background: #d9d9d9;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-bottom: .1px solid gray;
+    padding-left: 0px;
+    font-size: 13px;
+    letter-spacing: .8px;
+    transition: all 1s;
+}
+
+.footer5 input:focus {
+    border-bottom: .1px solid rgb(233, 61, 61);
+    outline: none;
+}
+
+.info li {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.info li a i:hover {
+    color: red;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.visa-row {
+    text-align: center;
+}
+
+.visa ul li {
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.c2017 {
+    text-align: center;
+}
+
+.c2017 div {
+    color: #555555;
+    font-size: 13px;
+}
